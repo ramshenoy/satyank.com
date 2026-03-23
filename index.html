@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SatyAnk Solutions</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      color: #1a1a2e;
+      background: #f9f9fb;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    header {
+      background: #1a1a2e;
+      padding: 2.5rem 2rem;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 2.4rem;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      color: #ffffff;
+    }
+
+    header p {
+      margin-top: 0.5rem;
+      font-size: 1rem;
+      color: #a0aec0;
+      letter-spacing: 0.04em;
+    }
+
+    main {
+      flex: 1;
+      max-width: 760px;
+      margin: 3rem auto;
+      padding: 0 1.5rem;
+    }
+
+    .intro {
+      font-size: 1.1rem;
+      line-height: 1.8;
+      color: #444;
+      margin-bottom: 2.5rem;
+    }
+
+    .section-title {
+      font-size: 0.75rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+      color: #888;
+      margin-bottom: 1rem;
+    }
+
+    .cards {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1rem;
+      margin-bottom: 3rem;
+    }
+
+    @media (max-width: 560px) {
+      .cards { grid-template-columns: 1fr; }
+    }
+
+    .card {
+      background: #fff;
+      border: 1px solid #e8e8f0;
+      border-radius: 10px;
+      padding: 1.25rem 1.5rem;
+    }
+
+    .card h3 {
+      font-size: 0.95rem;
+      font-weight: 600;
+      color: #1a1a2e;
+      margin-bottom: 0.35rem;
+    }
+
+    .card p {
+      font-size: 0.875rem;
+      color: #666;
+      line-height: 1.6;
+    }
+
+    .privacy-box {
+      background: #fff;
+      border: 1px solid #d0d8e8;
+      border-left: 4px solid #1a1a2e;
+      border-radius: 8px;
+      padding: 1.5rem 1.75rem;
+      margin-bottom: 3rem;
+    }
+
+    .privacy-box h2 {
+      font-size: 0.95rem;
+      font-weight: 700;
+      color: #1a1a2e;
+      margin-bottom: 0.75rem;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+    }
+
+    .privacy-box p {
+      font-size: 0.9rem;
+      color: #555;
+      line-height: 1.75;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1.5rem;
+      font-size: 0.8rem;
+      color: #aaa;
+      border-top: 1px solid #eee;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>SATYANK</h1>
+    <p>Solutions LLP &nbsp;·&nbsp; Mumbai, India</p>
+  </header>
+
+  <main>
+
+    <p class="intro">
+      SatyAnk Solutions LLP is an analytics and technology firm building intelligent tools for personal finance, 
+      health data, and financial modelling. We combine actuarial rigour with modern AI to create practical, 
+      privacy-first applications.
+    </p>
+
+    <p class="section-title">What we build</p>
+    <div class="cards">
+      <div class="card">
+        <h3>Personal Health Analytics</h3>
+        <p>Tools for individuals to aggregate, track, and analyse their own health and activity data locally.</p>
+      </div>
+      <div class="card">
+        <h3>Financial Modelling</h3>
+        <p>ECL models, credit analytics, and Ind AS 109 frameworks for NBFCs and financial institutions.</p>
+      </div>
+      <div class="card">
+        <h3>AI-Assisted Workflows</h3>
+        <p>Intelligent agents for document analysis, regulatory responses, and analytical automation.</p>
+      </div>
+      <div class="card">
+        <h3>Education Technology</h3>
+        <p>Personalised learning tools that bring expert tutoring to students through AI-generated content.</p>
+      </div>
+    </div>
+
+    <div class="privacy-box">
+      <h2>Privacy Statement</h2>
+      <p>
+        This is a personal health data aggregation tool for individual use only. No data is collected 
+        from other users, shared with third parties, or used for commercial purposes. Activity data is 
+        stored locally and used solely for personal health analysis and tracking.
+      </p>
+    </div>
+
+  </main>
+
+  <footer>
+    &copy; 2026 SatyAnk Solutions LLP &nbsp;·&nbsp; LLPIN ACQ-7634 &nbsp;·&nbsp; Mumbai, India
+  </footer>
+
+</body>
+</html>
